@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/* my class */
 public class Graph {
 	private List<Vortex>myGraph = new ArrayList<Vortex>();
 	private List<Vortex>myRestrictions=new ArrayList<Vortex>();
@@ -135,6 +136,7 @@ public class Graph {
 		Graph g = new Graph();
 		g.createNodes(20);
 		g.connect();
+		g.showGraph();
 		g.addRestrictions();
 		for( Vortex restr: g.getMyRestrictions() ){
 			g.dfs(g.getVortex(0), g.getVortex(19), restr, new ArrayList<Vortex>());
