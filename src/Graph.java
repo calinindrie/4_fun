@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
 
+/* we should place something here 
+   shouldn't we ???! */
 public class Graph {
 	private List<Vortex>myGraph = new ArrayList<Vortex>();
 	private List<Vortex>myRestrictions=new ArrayList<Vortex>();
